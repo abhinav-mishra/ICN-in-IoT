@@ -872,6 +872,7 @@ usage:
     DEBUGMSG(INFO, "  ccnl-core: %s\n", CCNL_VERSION);
     DEBUGMSG(INFO, "  compile time: %s %s\n", __DATE__, __TIME__);
     DEBUGMSG(INFO, "  compile options: %s\n", compile_string);
+    DEBUGMSG(INFO, "Abhinav - Modified CCN lite");
 //    DEBUGMSG(INFO, "using suite %s\n", ccnl_suite2str(suite));
 
     ccnl_relay_config(&theRelay, ethdev, udpport1, udpport2, httpport,
